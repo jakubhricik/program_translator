@@ -1,0 +1,14 @@
+var x, y, z, max;
+read x,y,z;
+
+if(y<= x && z <= x) then {
+    max := x;
+}else{
+    if(x<=y && z<=y)then{
+        max:=y;
+    }else{
+        max:=z;
+    }
+};
+
+print max;

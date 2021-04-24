@@ -1,0 +1,8 @@
+var x;
+read x;
+
+while (1<=x) do{
+    x:= x-1;
+};
+
+print x;

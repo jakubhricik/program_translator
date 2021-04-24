@@ -1,0 +1,12 @@
+var x,y;
+read x,y;
+
+while !(x = y) do {
+    if(y<=x)then{
+        x:=x-y;
+    }else{
+        y:=y-x;
+    };
+};
+
+print x;

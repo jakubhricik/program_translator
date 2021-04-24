@@ -1,0 +1,11 @@
+var x, y, z;
+read x, y;
+
+z:= 0;
+while (y<= x) do {
+    z:= z+1;
+    x:= x-y;
+};
+
+print z;
+print x;

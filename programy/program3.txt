@@ -1,0 +1,10 @@
+var a, b, max;
+read a, b;
+
+if (a<= b) then{
+    max:=b
+}else{
+    max:=a
+};
+
+print max;

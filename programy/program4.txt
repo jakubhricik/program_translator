@@ -1,0 +1,11 @@
+var a, b, min, bool;
+read a, b;
+
+
+if !(a <= b) then{
+    min:= b
+}else{
+    min:= a
+}
+
+print min;

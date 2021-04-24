@@ -1,0 +1,26 @@
+var x, y, z, med;
+read x, y, z;
+
+if (y<=x) then {
+    if(z<=y) then{
+        med:=y;
+    }else{
+        if(z<=x) then{
+            med:= z;
+        }else{
+            med:= x;
+        }
+    }
+}else{
+    if(z<=x) then{
+        med:=x;
+    }else{
+        if(z<=y)then{
+            med :=z ;
+        }else{
+            med:=y;
+        }
+    }
+};
+
+print med;

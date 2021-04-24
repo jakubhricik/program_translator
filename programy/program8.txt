@@ -1,0 +1,18 @@
+var x, y, z, min;
+read x,y,z;
+
+if(x <= y) then {
+    if(x <= z) then{
+        min:=x;
+    }else{
+        min:=z;
+    }
+}else{
+    if(y <= z)then {
+        min:=y;
+    }else{
+        min:=z;
+    }
+};
+
+print min;
